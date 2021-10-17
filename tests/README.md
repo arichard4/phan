@@ -3,7 +3,9 @@ Scripts
 
 `tests/run_test` can be run from the root folder to run individual test suites.
 
-`tests/run_all_tests [--parallel]` can be run from the root folder to run all test suites (Tested only on Linux)
+`tests/run_all_tests` can be run from the root folder to run all test suites (Tested only on Linux)
+
+Optionally, if GNU Parallel is installed, run_all_tests will use it to run the tests in parallel.
 
 Folder Layout
 =============
